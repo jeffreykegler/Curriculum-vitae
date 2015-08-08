@@ -42,6 +42,71 @@
           </ul>
         </dd>
         <dt></dt><dd class="clear"></dd>
+        <dt>Open source software</dt>
+        <dd>
+          <h2>Marpa<span>Founder and project leader, 2007 to present</span></h2>
+          <p>Marpa is an efficient general BNF parser,
+            based on Aycock and Horspool's
+            and Joop Leo's modifications
+            of the Earley algorithm.
+            Marpa parses any language whose grammar can be written in BNF.
+            That includes recursive grammars, ambiguous grammars,
+            infinitely ambiguous grammars and grammars with useless or empty productions.
+            Marpa does both left- and right-recursion in linear time --
+            if a grammar is in any class currently in practical use,
+            Marpa will parse it in linear time.
+          </p><p><a href="https://metacpan.org/release/Marpa-R2">Marpa::R2</a>
+            is the latest CPAN release of the Perl version of
+            the Marpa parsing algorithm.
+            Marpa::R2
+          </p>
+          <ul>
+            <li>is
+              <a href="https://packages.debian.org/jessie/libmarpa-r2-perl">Debian stable</a>
+              as of jessie.</li>
+            <li>is in use at several major corporations, including IBM, which
+              <a href="https://www.ibm.com/developerworks/community/blogs/jalvord/entry/sitworld_itm_situation_audit?lang=en">
+                advertises its use</a>,
+              calling it
+              "an advanced high speed parsing/lexing system".
+            </li>
+            <li>is the subject of several online videos:
+              <ul>
+                <li>an interview in
+                  <a href="https://www.youtube.com/watch?v=JliSGjD1UCE">FLOSS Weekly 321</a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/watch?v=XaScLywH2CI">a talk</a>
+                  by Andrew Rodland at YAPC::NA in Orlando
+                </li>
+                <li><a href="http://workshop.barcelona.pm/barcelona2014/talk/5822">a
+                    talk</a>
+                  by Jose Luis Perez Diez in Barcelona
+                </li>
+                <li><a href="https://www.youtube.com/watch?v=JliSGjD1UCE">a talk</a>
+                  by Dr. Stephen Flitman in Phoenix</li>
+                <li><a href="https://www.youtube.com/watch?v=9Dc9Btro4xc">a talk in Russian</a>
+                  by Ruslan Zakirov in Moscow</li>
+              </ul>
+            </li>
+            <li>is mentioned in the documentation of Perl itself
+              (<a href="http://perldoc.perl.org/perlfaq4.html">perlfaq4</a>)</li>
+            <li>has a large, active user community,
+              whose members maintain
+              <a href="http://savage.net.au/Marpa.html">
+                a web site</a>,
+              <a href="https://groups.google.com/forum/#!forum/marpa-parser">
+                a mailing list</a>,
+              and an IRC channel (#marpa at freenode.net).
+            </li>
+            <li>is available on
+              <a href="https://metacpan.org/release/Marpa-R2">
+                CPAN</a>
+              and
+              <a href="https://github.com/jeffreykegler/Marpa--R2">Github</a>.
+            </li></ul>
+        </dd>
+        <dt></dt><dd class="clear"></dd>
         <dt>Selected Publications</dt>
         <dd>
           <h2>"Parsing: a timeline"</h2>
@@ -49,8 +114,8 @@
             <a href="http://jeffreykegler.github.io/Ocean-of-Awareness-blog/individual/2014/09/chron.html">
               summary</a>
             of the history of Parsing Theory.
-            This piece proved very popular --
-            it got over 10,000 views in a 48 hour period,
+            This piece proved very popular, getting
+            over 10,000 views in a 48 hour period,
             which is a stunning number for mathematical web page
             with no illustrations.
             It has since been
@@ -59,13 +124,9 @@
             (They added an picture.)
           </p>
           <h2>"What is the Marpa algorithm?"</h2>
-          <p>Marpa is an efficient general BNF parser,
-            based on Aycock and Horspool's
-            and Joop Leo's modifications
-            of the Earley algorithm.
-            <a href="http://jeffreykegler.github.io/Ocean-of-Awareness-blog/individual/2011/11/what-is-the-marpa-algorithm.html">
+          <p><a href="http://jeffreykegler.github.io/Ocean-of-Awareness-blog/individual/2011/11/what-is-the-marpa-algorithm.html">
               This piece</a>
-            is a very short, very high-level overview of the theory behind it.
+            is a very short, very high-level overview of the theory behind Marpa.
             It is referred to in
             <a href="http://cs652.cs.usfca.edu/lectures/week02">the
               lecture notes</a>
@@ -138,77 +199,6 @@
             appeared in
             <b>Communications of the ACM</b>, vol. 29, no.  6, pp.  556-557, 1986.
           </p>
-        </dd>
-        <dt></dt><dd class="clear"></dd>
-        <dt>Open source software</dt>
-        <dd>
-          <h2>Marpa::R2<span>2012 to present</span></h2>
-          <p>Marpa::R2 is the latest CPAN release of the Perl version of
-            the Marpa parsing algorithm and its upper layers.
-            Marpa::R2 has seen widespread use.
-          </p><ul>
-            <li>Marpa::R2 is in use at several major corporations.
-              IBM
-              <a href="https://www.ibm.com/developerworks/community/blogs/jalvord/entry/sitworld_itm_situation_audit?lang=en">
-                advertises its use</a>,
-              calling Marpa::R2,
-              "an advanced high speed parsing/lexing system".
-            </li><li>Marpa::R2 was the subject
-              of
-              <a href="https://www.youtube.com/watch?v=JliSGjD1UCE">
-                a FLOSS Weekly segment,
-                of talks at
-                <a href="https://www.youtube.com/watch?v=XaScLywH2CI">YAPC::NA</a>,
-                and at
-                <a href="http://workshop.barcelona.pm/barcelona2014/talk/5822">
-                  Barcelona.pm</a>.
-              </a></li><li>Marpa has a large active user community,
-              whose members maintain
-              <a href="http://savage.net.au/Marpa.html">
-                a web site</a>,
-              <a href="https://groups.google.com/forum/#!forum/marpa-parser">
-                a mailing list</a>,
-              and an IRC channel (#marpa at freenode.net).
-            </li></ul>
-          <p>Marpa::R2 is available on
-            <a href="https://metacpan.org/release/Marpa-R2">
-              CPAN</a>
-            and
-            <a href="https://github.com/jeffreykegler/Marpa--R2">Github</a>.
-          </p><h2>Libmarpa<span>2012 to present</span></h2>
-          <p>
-            <a href="https://github.com/jeffreykegler/Marpa--R2">
-              Libmarpa</a>
-            is
-            the library implementing the core of the Marpa algorithm,
-            written in CWEB, Don Knuth's "literate programming" version of
-            the C language.
-          </p>
-          <h2>Marpa::XS<span>2011 to 2012</span></h2>
-          <p>
-            Marpa::XS, the predecessor of Marpa::R2,
-            was recognized as one of Perl's most important modules
-            within weeks of its 1.0 release in December 2011, and
-          </p><ul>
-            <li>was pre-announced by National Public Radio's ``NPR Tech Team'' on their
-              news feed (19 Nov 2011);</li>
-            <li>
-              was cited by the Perl Foundation as evidence that
-              ``Perl is bigger and better than ever''
-              (Perl Foundation News, 5 January 2012).</li>
-          </ul>
-          <ul></ul>
-          <p>
-            By its 6-month anniversary, Marpa::XS
-          </p>
-          <ul>
-            <li>was a Fedora package (as of release 16);</li>
-            <li>had received its first academic citation
-              (DOI: 10.4230/OASIcs.SLATE.2012.41); and</li>
-            <li>
-              was mentioned in the Perl language's
-              own documentation (perlfaq4 as of 5.16.0).</li>
-          </ul>
         </dd>
         <dt></dt><dd class="clear"></dd>
         <dt>Professonal experience from 1984</dt>
